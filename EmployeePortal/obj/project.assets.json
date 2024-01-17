@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "EmployeePortal.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/EmployeePortal.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeePortal.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmployeePortal.Models/1.0.0": {
+      "type": "project",
+      "path": "../EmployeePortal.Models/EmployeePortal.Models.csproj",
+      "msbuildProject": "../EmployeePortal.Models/EmployeePortal.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "EmployeePortal.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dad S. Wonkulah Jr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeManagementSystem\\EmployeePortal\\EmployeePortal.csproj",
+      "projectName": "EmployeePortal",
+      "projectPath": "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeManagementSystem\\EmployeePortal\\EmployeePortal.csproj",
+      "packagesPath": "C:\\Users\\Dad S. Wonkulah Jr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeManagementSystem\\EmployeePortal\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Dad S. Wonkulah Jr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeManagementSystem\\EmployeePortal.Models\\EmployeePortal.Models.csproj": {
+              "projectPath": "C:\\Users\\Dad S. Wonkulah Jr\\source\\repos\\EmployeeManagementSystem\\EmployeePortal.Models\\EmployeePortal.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

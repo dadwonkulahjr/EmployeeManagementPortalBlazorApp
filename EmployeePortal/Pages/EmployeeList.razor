@@ -1,0 +1,39 @@
+﻿@page "/"
+@inherits EmployeeListBase
+
+<h3>Employee List</h3>
+
+@if (Employees.Any())
+{
+    <div class="container">
+        <div class="row">
+            <div class="flex">
+                <div class="card-desk">
+
+                    @foreach (var employee in Employees)
+                    {
+                        <div class="card mt-3">
+                            <h3 class="card-header">@employee.FirstName @employee.LastName</h3>
+                            <img src="@employee.PhotoPath" style="min-width:18rem; max-width:20px;" class="card-img-top img-reponsive">
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-primary">View</a>
+                                <a href="#" class="btn btn-success">Update</a>
+                                <a href="#" class="btn btn-danger">Delete</a>
+                            </div>
+                        </div>
+                    }
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+else
+{
+    <h3 class="h3">
+        No Item to be display!
+    </h3>
+}

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "EmployeePortal/1.0.0": {
+        "dependencies": {
+          "EmployeePortal.Models": "1.0.0"
+        },
+        "runtime": {
+          "EmployeePortal.dll": {}
+        }
+      },
+      "EmployeePortal.Models/1.0.0": {
+        "runtime": {
+          "EmployeePortal.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmployeePortal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmployeePortal.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
